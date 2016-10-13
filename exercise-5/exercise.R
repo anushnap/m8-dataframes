@@ -1,7 +1,7 @@
 # Exercise 5: Gates Foundation Educational Grants
 
 # Read data into a variable called `grants` using the `read.csv` function
-grants <- read.csv('data/gates_money.csv')
+grants <- read.csv('data/gates_money.csv', stringsAsFactors = FALSE)
 
 # Use the View function to look at your data
 View(grants)
